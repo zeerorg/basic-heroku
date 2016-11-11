@@ -10,4 +10,4 @@ def index():
 @app.route('/testing')
 def testing():
     r = requests.get('https://www.python.org')
-    return str(r.text)
+    return (r.text)
