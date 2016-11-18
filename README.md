@@ -8,6 +8,11 @@ git push heroku master
 ```
 
 ## After creating run python terminal
+#####To run python terminal
+```bash
+heroku run python
+```
+#####TNow input commands
 ```python
 from deploy import db
 db.create_all()
