@@ -30,5 +30,5 @@ def all_users():
     users = User.query.all()
     all_of_them = ""
     for x in users:
-        all_of_them += x + "<br>"
+        all_of_them += x.__repr__() + "<br>"
     return all_of_them
